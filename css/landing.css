@@ -1,0 +1,128 @@
+body {
+	color: black;
+	margin: 40px;
+	width: 1030px;
+	background: url(../images/landing/bg.jpg) repeat-x #FBFBFB;
+}
+
+.col-left {
+	float: left;
+}
+
+.col-right {
+	float: left;
+	margin-left: 30px;
+	width: 360px;
+}
+
+ul.features {
+	margin: 25px 0 0 30px;
+}
+
+ul.features li {
+	font-size: 30px;
+    list-style-image: url("../images/landing/tick.png");
+    list-style-position: outside;
+    margin-bottom: 15px;
+}
+
+ul.features li small {
+	display: block;
+	font-size: 16px;
+	color: #4d4d4d;
+	line-height: 1.1em;
+}
+
+a.logo {
+	background: url("../images/landing/hlogo.png") repeat scroll 0 0 transparent;
+    display: block;
+    height: 91px;
+    position: absolute;
+    text-indent: -9999px;
+    top: 15px;
+    width: 198px;
+    z-index: 1;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+.footer {
+	clear: both;
+}
+
+form.action {
+	text-align: left;
+	padding: 15px 0 0 30px;
+}
+
+form.action small {
+	display: block;
+	font-variant: small-caps;
+	font-size: 14px;
+	padding: 10px 0 0 15px;
+}
+
+form.action small em {
+	font-weight: bold;
+	font-style: normal;
+	padding-top: 8px;
+}
+
+button#more {
+	font-size: 20px;
+	padding: 15px 10px;
+	border: 3px solid #e56d78;
+}
+
+.footer {
+	padding-top: 40px;
+}
+
+.footer p {
+	color: #737373;
+	font-size: 22px;
+}
+
+.footer ul {
+	padding: 20px 0;
+}
+
+.footer ul li {
+	float: left;
+	margin-right: 100px;
+}
+
+.footer ul li.last {
+	margin-right: 0;
+}
+
+.clear
+{
+	clear: both;
+}
+
+/* pagination styles for slider */
+.pagination {
+    margin: 26px auto 0;
+    width: 100px;
+}
+.pagination li {
+    float: left;
+    list-style: none outside none;
+    margin: 0 5px;
+}
+.pagination li a {
+    background-image: url("../images/landing/pagination.png");
+    background-position: 0 0;
+    display: block;
+    float: left;
+    height: 0;
+    overflow: hidden;
+    padding-top: 12px;
+    width: 12px;
+}
+.pagination li.current a {
+    background-position: 0 -12px;
+}

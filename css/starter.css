@@ -1,0 +1,10 @@
+body {
+	width: 100%;
+}
+
+#container {
+	margin: 0 auto;
+	width: 800px;
+	text-align: center;
+	padding-top: 80px;
+}

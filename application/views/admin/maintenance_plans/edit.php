@@ -1,0 +1,1 @@
+<? $record = $records[0] ?>

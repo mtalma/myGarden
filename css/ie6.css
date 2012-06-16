@@ -1,0 +1,115 @@
+#container {
+   height: 100%;
+}
+
+.project-detail-gallery a.button {
+	background: url(../images/ie6-button-gallery.gif) no-repeat;
+	margin-top: -150px;
+	margin-left: 232px;
+	left: 0px;
+	top: 0px;
+	position: relative;
+}
+
+.rentals .project-detail-gallery a.button {
+	background: url(../images/ie6-button-gallery.gif) no-repeat;
+	position: relative;
+	margin-top: -105px;
+	margin-left: 243px;
+	left: 0px;
+	top: 0px;
+	height: .01%;
+	z-index: 2;
+}
+
+.projects .inline-article a.zoom {
+	background: url(../images/icon-add.gif) no-repeat 3px center;
+}
+
+.rentals #content .project-detail-gallery img {
+	position: relative;
+}
+
+#banner-info {
+	bottom: 51px;
+}
+
+#banner-info a.more {
+	background: url(../images/icon-home-banner-more.gif) no-repeat right;
+}
+
+
+#content .action a.button {
+	background-image: url(../images/ie6-button.gif);
+	display: inline;
+}
+
+form input.form-but {
+	background-image: url(../images/ie6-button.gif);
+}
+
+.pricing .icon {
+	background: url(../images/pricing-plants.gif) no-repeat 0 30px;
+}
+
+.middle .icon {
+	background-position: 0 -66px;
+}
+
+.right .icon {
+	background-position: 0 bottom;
+}
+
+.infotip {
+	background-image: none;
+	background-color: #4d4d4d;
+	height: 70px;
+}
+
+#content li.pricing {
+	height: 64px;
+}
+
+#history #content p {
+	background-image: none;
+}
+
+#history #content .article {
+	margin-right: -60px;
+}
+
+#history #content .article-left {
+	margin-left: -60px;
+	margin-right: 20px;
+}
+
+#footer .wrapper {
+	background: url(../images/ie6-footer-garden-guy.jpg) no-repeat right top;
+}
+
+#footer .column li {
+	float: left;
+	width: 130px;
+}
+
+#footer .column ul.last li {
+	width: 110px;
+}
+
+#footer .column li li a {
+	background: url(../images/ie6-icon-arrow-footer.gif) no-repeat 0 3px;
+}
+
+#footer .utility {
+	margin-top: 10px;
+}
+
+.plan-custom #quote-list li {
+	width: 190px;
+	padding-bottom: 5px;
+}
+
+.quote-home .column-info {
+	display: inline;
+	margin-right: 15px;
+}
