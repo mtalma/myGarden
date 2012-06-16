@@ -1,0 +1,442 @@
+body {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #222222;
+    font-family: "Helvetica Neue",Arial,Verdana,"Nimbus Sans L",sans-serif;
+    font-size: 12px;
+    height: 100%;
+    line-height: 1.6em;
+    text-rendering: optimizelegibility;
+}
+
+#new_client_view_shell.client-shell-web .client-document-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+    min-height: 900px;
+}
+
+#new_client_view_shell .client-document-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    font-size: 16px;
+    line-height: 1.1em;
+    padding: 50px 40px;
+}
+
+.span-15, #new_client_view_shell.client-shell-web {
+    width: 880px;
+}
+
+#new_client_view_shell, table.pricing td .centerBtn .btn {
+    margin: 0 auto;
+}
+
+.invoice-action {
+    padding: 15px 0;
+    width: 880px;
+    margin: 0 auto;
+}
+
+.invoice-action .invoice-action-buttons {
+    float: right;
+    padding: 20px;
+    width: 114px;
+}
+
+.invoice-action .invoice-action-buttons a.print-button:hover {
+    background-position: -43px -43px;
+}
+
+.invoice-action .invoice-action-buttons a.print-button {
+    background-position: -43px -2px;
+}
+.invoice-action .invoice-action-buttons a {
+    background: url("../images/clientview-icons.png") repeat scroll 0 0 transparent;
+    float: right;
+    height: 41px;
+    margin-left: 8px;
+    width: 41px;
+}
+
+.ir {
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -9000px;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, font, img, dl, dt, dd, ol, ul, li, legend, table, tbody, tr, th, td {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    list-style: none outside none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+
+h3 {
+ line-height: 1.1em;
+}
+
+
+#new_client_view_shell #client-document .client-doc-address div {
+    width: 160px;
+}
+
+#new_client_view_shell #client-document .client-doc-details table td.label, #new_client_view_shell #client-document .client-doc-items .item-type, #new_client_view_shell #client-document .client-doc-items .item-unit-price, #new_client_view_shell #client-document.address-on-left .client-doc-for h3, #new_client_view_shell #client-document.address-on-left .subject-address-on-left h3, table.invoice_payments th.date, table.invoice_payments td.date, table.invoice_items th.date, table.invoice_items td.date {
+    width: 100px;
+}
+
+#new_client_view_shell #client-document .client-doc-items .item-description {
+	width: 200px;
+}
+
+#new_client_view_shell #client-document .client-doc-items .item-amount, .recurring_container table.read_only td.label, table.invoice_items thead th.amount, .invoice_container_edit table.invoice_items th.amount, .invoice_container_edit table.invoice_items td.amount {
+    width: 500px;
+}
+
+#new_client_view_shell #client-document .client-doc-items td {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+#new_client_view_shell #client-document .client-doc-address h3 {
+    padding-top: 7px;
+}
+
+      #client-document {
+  background: white;
+  border: 0px;
+  color: #222222;
+  font-family: "Helvetica Neue", Helvetica, Arial, Verdana, "Nimbus Sans L", sans-serif;
+  font-size: .75em;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  z-index: 1; }
+
+
+#client-document hr {
+  background: #cccccc;
+  color: #cccccc;
+  width: 100%;
+  height: 2px;
+  margin: 2em 0;
+  padding: 0;
+  border: none; }
+  #client-document hr.space {
+    background: white;
+    color: white; }
+#client-document h1, #client-document h2, #client-document h3, #client-document h4, #client-document h5, #client-document h6 {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+#client-document code {
+  font-size: 0.9em;
+  font-family: "andale mono", "lucida console", monospace; }
+#client-document a img {
+  border: none; }
+#client-document p {
+  margin: 0 0 1em; }
+#client-document p img.top {
+  margin-top: 0; }
+#client-document blockquote {
+  margin: 1.5em;
+  padding: 1em;
+  font-style: italic;
+  font-size: 0.9em; }
+#client-document .small {
+  font-size: 0.9em; }
+#client-document .large {
+  font-size: 1.1em; }
+#client-document .quiet {
+  color: #999999; }
+#client-document .hide {
+  display: none; }
+
+
+.client-doc-header {
+  padding: 0px 5px;
+  position: relative; }
+  
+.client-doc-doc-type 
+{
+    float: right;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0 0 15px;
+    text-align: right;
+    padding-right: 40px;
+    width: 310px; 
+}
+
+@media print {
+	.client-doc-doc-type 
+	{
+		padding-right: 0px;
+	}
+}
+
+  .client-doc-name {
+    float: left;
+    margin-bottom: 30px; }
+    .client-doc-name h1 {
+      font-size: 3em;
+      font-weight: bold;
+      line-height: 1.1em;
+      margin: 0px;
+      min-height: 80px;
+      padding: 0px;
+      width: 300px; }
+    .client-doc-name img {
+      display: block; }
+
+  .client-doc-from {
+    float: right;
+    margin-bottom: 30px; }
+  .client-doc-for {
+    float: right; }
+    .client-doc-address h3 {
+      color: #555;
+      float: left;
+      font-size: 1em;
+      font-weight: normal;
+      margin: 0;
+      padding-top: 4px;
+      text-align: right;
+      width: 105px; }
+    .client-doc-address div {
+      border-left: 1px solid #cccccc;
+      margin-left: 115px;
+      padding: 4px 0 4px 10px;
+      width: 181px; }
+    .client-doc-address strong {
+      display: block;
+      font-size: 1.2em;
+      padding-bottom: 2px; }
+
+  .client-doc-details {
+    float: left; }
+    .client-doc-details table {
+      text-align: left;
+      width: 330px; }
+    .client-doc-details table td.label {
+      color: #555;
+      font-size: inherit;
+      padding: 4px 6px 4px 0px;
+      min-height: 17px;
+      width: 70px;
+      white-space: nowrap;
+      vertical-align: top; }
+    .client-doc-details table td.definition {
+      border-left: 1px solid #cccccc;
+      min-height: 17px;
+      padding: 4px 10px;
+      vertical-align: top; }
+
+
+.client-doc-items 
+{
+  border-collapse: collapse;
+  margin: 50px 0;
+  width: 100%; 
+}
+
+.client-doc-items th {
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	font-size: 0.9em;
+	font-weight: bold;
+	line-height: 1.1em;
+	padding: 3px 10px 2px;
+	text-align: left;
+	vertical-align: top; 
+}
+
+.client-doc-items td {
+	border-bottom: 1px solid #cccccc;
+	border-right: 1px solid #cccccc;
+	float: none;
+	font-weight: normal;
+	padding: 10px;
+	text-align: left;
+	vertical-align: top; 
+}
+.client-doc-items .first {
+	padding-left: 5px; 
+}
+.client-doc-items .last {
+	border-right: 0px;
+	padding-right: 5px; 
+}
+.client-doc-items tr.row-even td {
+	background: #f6f6f6; 
+}
+
+.client-doc-items .item-type {
+	width: 70px; 
+}
+#client-document .client-doc-items .item-description p:last-child {
+	margin: 0px; 
+}
+.client-doc-items .item-qty {
+	text-align: right;
+	width: 50px; 
+}
+.client-doc-items .item-unit-price {
+	text-align: right;
+	white-space: nowrap;
+	width: 75px; 
+}
+.client-doc-items .item-amount {
+	font-weight: bold;
+	white-space: nowrap;
+	width: 85px; 
+}
+
+  .client-doc-summary td {
+    border: 0px;
+    color: #555555;
+    padding: 2px 10px;
+    text-align: right; }
+  .client-doc-summary td.subtotal {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #222222;
+    padding-right: 5px;
+    white-space: nowrap; }
+  .client-doc-summary tr:first-child td {
+    padding-top: 20px; }
+  .client-doc-summary tr.total td {
+    color: #222222;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding-top: 1.1em; }
+  .client-doc-summary tr.total td.total {
+    padding-right: 5px;
+    white-space: nowrap; }
+
+
+.client-doc-notes {
+	border-top: 1px solid #CCCCCC;
+    margin: 0 0px 25px 0;
+    padding: 0 5px;
+    width: 300px;
+    min-height: 100px;
+  }
+  
+  .client-doc-sig {
+	border-top: 1px solid #CCCCCC;
+    margin: 0 0px 25px 0;
+    padding: 0 5px;
+    width: 300px;
+    min-height: 45px;
+  }
+  
+ .right {
+	float: right;
+ }
+ 
+ .left {
+	float: left;
+ }
+ 
+  * html .client-doc-notes,* html .client-doc-sig {
+    overflow-x: hidden; }
+  .client-doc-notes h3, .client-doc-sig h3 {
+    font-size: 0.9em;
+    font-weight: bold;
+    margin: 5px 0 10px; }
+	
+.client-times {
+	height: 120px;
+}
+	
+#client-document p.time {
+    padding: 0 5px;
+    line-height: 1em;
+	width: 230px;
+	text-align: center;
+	font-size: 0.9em;
+    font-weight: bold;
+    margin: 5px 25px 10px;
+	display: inline;
+}
+
+
+/* Hidden Columns */
+.hide-type-column .client-doc-items .item-type { display: none; }
+.hide-quantity-column .client-doc-items .item-qty { display: none; }
+.hide-unit_price-column .client-doc-items .item-unit-price { display: none; }
+.hide-description-column .client-doc-items .item-description { display: none; }
+.hide-amount-column .client-doc-items .item-amount { display: none; }
+
+
+/* Address-on-left Template */
+#client-document.address-on-left .client-doc-details { float: right; }
+  #client-document.address-on-left .client-doc-details table { width: 307px; }
+  #client-document.address-on-left .client-doc-details table td.label { text-align: right; width: 105px; }
+
+#client-document.address-on-left .client-doc-for { float: left; }
+  #client-document.address-on-left .client-doc-for h3 { width: 70px; text-align: left; }
+  #client-document.address-on-left .client-doc-for div { margin-left: 80px; width: 200px; }
+
+#client-document.address-on-left .subject-address-on-right { display: none; }
+#client-document.address-on-left .subject-address-on-left { display: block !important; }
+  .subject-address-on-left { margin: 20px 0 -10px; }
+  .subject-address-on-left h3 { width: 70px; text-align: left; }
+  .subject-address-on-left div {margin-left: 80px; width: auto; }
+
+@media print {
+ .do-not-print {
+	display:none; 
+	}
+  .footer {
+
+  }
+ #client-document a:link, #client-document a:visited {
+   background: transparent;
+   font-weight: 700;
+   text-decoration: underline; }
+  .page-break { height:0; page-break-before:always; margin:0; border-top:none; }
+  
+  #new_client_view_shell {
+width:100% !important;
+overflow:visible !important;
+margin:0 !important;
+padding:0 !important;
+}
+
+#new_client_view_shell.client-shell-in-app {
+box-shadow:0 0 0 rgba(0,0,0,0) !important;
+-moz-box-shadow:0 0 0 rgba(0,0,0,0) !important;
+-webkit-box-shadow:0 0 0 rgba(0,0,0,0) !important;
+width:100% !important;
+margin:0 !important;
+padding:0 !important;
+}
+
+#new_client_view_shell .client-document-container {
+box-shadow:0 0 0 rgba(0,0,0,0) !important;
+-moz-box-shadow:0 0 0 rgba(0,0,0,0) !important;
+-webkit-box-shadow:0 0 0 rgba(0,0,0,0) !important;
+border:none !important;
+min-height:10px !important;
+font-size:14px !important;
+padding:0 !important;
+}
+
+#new_client_view_shell .client-document {
+border:none !important;
+width:100% !important;
+margin:0 !important;
+padding:0 !important;
+}
+.budget-print,.project-budget .bg-end-left,.project-budget .bg-end-right,#tabs-container .tasks-bar-graph,#tabs-container .staff-bar-graph,#tabs-container table.table .task-color,#tabs-container table.table.budget-table .staff-img,#page-actions,#detailed-options,.pagination span,.pagination a,#new_client_view_shell .client-document-status,.invoice-action,#new_client_view_shell .footer-credit,#new_client_view_shell #payment_form,#invoice_header,a[name="invoice_history"],#activity_log,a[rel="nofollow"],#low-res-logo,#file_attachments {
+display:none !important;
+}
+}
+
+@media screen {
+  .page-break  { height:10px; margin-bottom:13px; }
+}
